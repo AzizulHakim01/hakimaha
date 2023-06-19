@@ -1,0 +1,11 @@
+.category{
+    padding: 2%;
+    max-width:1350px;
+    margin: 0 auto;
+    .category_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom:40px;
+    }
+}
