@@ -33,8 +33,8 @@ const Category = () => {
                     background={"/12.png"}/>
                 <CategoryCard title={"Real State"}
                     background={"/13.png"}/>
-                <CategoryCard title={"yacht"}
-                    background={"/11.png"}/>
+                <CategoryCard title={"Robotics"}
+                    background={"/15.png"}/>
             </div>
         </div>
     )

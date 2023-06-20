@@ -1,0 +1,55 @@
+.offer{
+        max-height:600px;
+        position: relative;
+        width:100%;
+        &::before{
+            content: url(/public/homepage_gear_desktop_bkg.png);
+            height: 300px;
+            position:absolute;
+            bottom:-14px;
+            z-index: -50;
+            width:40%;
+            background-position: right;
+            
+        }
+    .inside__offer{
+        display: flex;
+        width: 1024px;
+        margin: auto;
+        align-items: start;
+        .text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            h1{
+                color:#222B33;
+            }
+            p{
+                color:#222B33;
+                font-weight: 100;
+            }
+            button{
+                background-color: #C80226;
+                color:#fff;
+                border:none;
+                outline:none;
+                padding:15px;
+                font-size: 1.2em;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all ease 0.3s;
+
+                &:hover{
+                    background-color: #E31230;
+                }
+            }
+        }
+        .image{
+    
+            img{
+                
+            }
+        }
+    }
+}
