@@ -3,7 +3,7 @@
         position: relative;
         width:100%;
         &::before{
-            content: url(/public/homepage_gear_desktop_bkg.png);
+            content: url(/homepage_gear_desktop_bkg.png);
             height: 300px;
             position:absolute;
             bottom:-14px;
@@ -24,6 +24,7 @@
             gap:20px;
             h1{
                 color:#222B33;
+                font-size: 2.5em;
             }
             p{
                 color:#222B33;
@@ -43,12 +44,6 @@
                 &:hover{
                     background-color: #E31230;
                 }
-            }
-        }
-        .image{
-    
-            img{
-                
             }
         }
     }

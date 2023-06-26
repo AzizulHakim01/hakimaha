@@ -5,6 +5,7 @@ import {faBullhorn} from "@fortawesome/free-solid-svg-icons"
 import Hero from "../../components/hero/Hero"
 import Category from "../../components/category/Category"
 import Offer from "../../components/offer/Offer"
+import Accessories from "../../components/accessories/Accessories"
 
 const Home = () => {
     return (
@@ -27,6 +28,9 @@ const Home = () => {
 
             {/* Offers */}
             <Offer/>
+
+            {/* Accessories */}
+            <Accessories/>
         </div>
     )
 }

@@ -1,0 +1,43 @@
+.accessories {
+    max-height: 600px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    img {
+        position: absolute;
+        left: -626px;
+        top: 220px;
+    }
+    .text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        right:220px;
+        top:400px;
+        h1 {
+            color: #222B33;
+            font-size:3em;
+        }
+        p {
+            color: #222B33;
+            font-weight: 100;
+        }
+        button {
+            background-color: #C80226;
+            color: #fff;
+            border: none;
+            outline: none;
+            padding: 15px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all ease 0.3s;
+
+            &:hover {
+                background-color: #E31230;
+            }
+        }
+    }
+}
